@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    background-image: url('/resources/voltanimation\ -\ 1461408876339814400.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: white;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 32rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.icon{
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    margin-top: 1rem;
+
+}
+h1{
+    font-family:'Franklin Gothic Medium',
+        Arial,
+        sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;        
+}
+.volta{
+    color: brown;
+}
+
+.frame-youtube{
+    border-radius: 6px;
+    width: 100%;
+    height: 256px;
+    transition: 0.5s;
+}
+.frame-youtube:hover{
+    transform: scale(1.1);
+    filter: contrast(150%);
+}
+.links {  
+border-radius: 6px;      
+text-decoration: none;
+background-color: white;
+padding-left: 0.5rem;
+width: 100%;
+display: flex;
+align-items: center;
+gap: 10px;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+transition: 0.5s;
+}
+.links:hover{
+    transform: scale(1.1);
+    filter: contrast(150%);
+}
+.logo{
+   margin: 10px 0; 
+   width: 32px;
+   height: 32px; 
+}
+.insta{
+    color: whitesmoke;
+    background: #d6249f;
+        background: radial-gradient(circle at 60% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
